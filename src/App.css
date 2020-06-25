@@ -1,0 +1,13 @@
+main {
+  width: 80%;
+  margin: 80px auto;
+}
+
+h1, hr{
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #474747;
+}
