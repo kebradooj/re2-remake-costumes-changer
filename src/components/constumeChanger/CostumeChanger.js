@@ -57,4 +57,21 @@ const MainContainer = styled.div`
     background: #191919;
     border: 1px solid #585858;
   }
+
+  @media(max-width:850px) {
+    section {
+      flex-direction: column;
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: space-between;
+    }
+    li {
+      font-size: .85rem;
+    }
+    img {
+      height: 540px;
+    }
+  }
 `;
